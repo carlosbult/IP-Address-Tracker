@@ -18,7 +18,8 @@ body {
 
 .header {
   height: 35%;
-  background-image: url("/images/pattern-bg.png");
+  /* background-image: url("/images/pattern-bg.png"); */
+  background-color: rgb(63, 123, 236);
   padding: 1em;
   display: flex;
   flex-direction: column;
