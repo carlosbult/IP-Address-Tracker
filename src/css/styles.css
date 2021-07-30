@@ -45,11 +45,13 @@ body {
   border-radius: 10px 0 0 10px;
   border: none;
   color: var(--Very-Dark-Gray);
+  outline: none;
 }
 .search__btn {
   background-color: black;
   padding: 0.5em 1em;
   border-radius: 0 10px 10px 0;
+  border: none;
   cursor: pointer;
 }
 
