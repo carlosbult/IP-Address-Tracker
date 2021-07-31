@@ -4,9 +4,9 @@ let timezone = document.getElementById("timezone");
 let isp = document.getElementById("isp");
 let btnSearch = document.getElementById("search__btn");
 let inputIp = document.getElementById("ip_address");
-let inputValue = "";
 let url =
   "https://geo.ipify.org/api/v1?apiKey=at_i10DVkrS8a8yZXEc7QsZtRlDygg1Z&ipAddress=&domain=";
+let inputValue = "";
 
 async function fecthData() {
   const response = await fetch(url);
